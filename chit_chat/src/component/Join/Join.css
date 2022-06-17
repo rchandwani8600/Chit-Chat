@@ -1,0 +1,63 @@
+.JoinPage{
+   
+    width:100vw;
+    height:100vh;
+    display:flex;
+     justify-content:center; 
+    align-items: center; 
+}
+
+.JoinContainer{
+    
+   
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items: center; 
+} 
+
+.JoinContainer > img{
+    width: 10vmax;
+    margin: 2vmax;
+}
+
+.JoinContainer >h1{
+    color: rgb(22, 156, 213);
+    font-size: 3vmax;
+    font-family:"Roboto";
+    width: 30vmax;
+    border-bottom: 0.2vmax solid rgb(22, 156, 213);
+    text-align:center;
+    padding:1vmax;
+    box-sizing: border-box;
+
+}
+
+#joininput{
+    width:25vmax;
+    padding:1.5vmax;
+    border:0.2vmax solid rgb(22, 156, 213);
+    font-size:1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+}
+
+.joinbtn{
+    width:25vmax;
+    padding:1.5vmax;
+    border:0.2vmax solid rgb(22, 156, 213);
+    font-size:1.2vmax;
+    background-color:rgb(22, 156, 213);
+    box-sizing:border-box;
+    color:white;
+    font-family:"Roboto";
+    transition: all 0.3s;
+    cursor:pointer
+
+    
+
+}
+
+.joinbtn:hover{
+    background-color: rgb(36, 133, 175);
+}
