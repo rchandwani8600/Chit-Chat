@@ -31,6 +31,7 @@
     transition: all 0.3s;
     cursor:pointer;
     height:50%;
+    font-size:1.5vmax;
 }
 
 .header img:hover{
