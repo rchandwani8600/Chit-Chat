@@ -14,12 +14,34 @@
 }
 .header{
     background-color: rgb(22, 156, 213);
-    height:15%
+    height:15%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
+
+.header>h2{
+    color: White;
+   margin: 2.5vmax;
+}
+.header img{
+    color:white;
+    margin:1.5vmax;
+    transition: all 0.3s;
+    cursor:pointer;
+    height:50%;
+}
+
+.header img:hover{
+    transform:scale(1.2) ;
+}
+
 .chatBox{
-    border:0.2vmax solid rgb(22, 156, 213);
+  
     height: 70%;
     box-sizing:border-box;
+    
 
 
 }
